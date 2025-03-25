@@ -17,11 +17,17 @@ sh ./build.sh
 Clients examples:
 
 - Make sure to have a Syphon server running to provide an image to the client.
-- `cd metal/simple-client && yarn build && yarn start`.
-- `cd opengl/simple-client && yarn build && yarn start`.
+- `cd metal/simple-client && yarn start`.
+- `cd opengl/simple-client && yarn start`.
 
 Servers examples:
 
 - Make sure to have a Syphon client running to display the result.
-- `cd metal/simple-server && yarn build && yarn start`.
-- `cd opengl/simple-server && yarn build && yarn start`.
+- `cd metal/simple-server && yarn start`.
+- `cd opengl/simple-server && yarn start`.
+
+## Upgrade to latest `node-syphon` version
+
+```sh
+sh ./upgrade.sh
+```
