@@ -760,10 +760,10 @@ nanoid@^3.3.8:
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.11.tgz#4f4f112cefbe303202f2199838128936266d185b"
   integrity sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==
 
-node-syphon@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/node-syphon/-/node-syphon-1.2.3.tgz#c18bf9f02cc0499996482a15a659e2f8bc609983"
-  integrity sha512-WS8igExCYIv9Ku0ZciDpA4qBiBc3Pdx2uJnw28LVTtzkGNSSRMILm6gDnL2LpY4GIZxTgAC5whnh5e6zAbloWw==
+node-syphon@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/node-syphon/-/node-syphon-1.3.1.tgz#326d1d7b3e4ba86e0085291346ec3c33617f4c43"
+  integrity sha512-hUOp3y+wZ0I85ktpBeoUXvrYfYj7IfnbQxYeNcCDnpcPZ6Vu25QyIc+OkY3+BjQcFeSwdHmffVPtDcRq6gtOPQ==
   dependencies:
     bindings "^1.5.0"
 

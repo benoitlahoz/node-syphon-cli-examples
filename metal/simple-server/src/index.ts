@@ -41,7 +41,7 @@ const sendToServer = (server: SyphonMetalServer, clamp = 255) => {
       server.publishImageData(
         data,
         { x: 0, y: 0, width: 50, height: 50 },
-        4 * 50,
+        { width: 50, height: 50 },
         false
       );
     } catch (err) {

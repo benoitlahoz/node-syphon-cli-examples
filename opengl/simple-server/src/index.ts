@@ -40,10 +40,10 @@ const sendToServer = (server: SyphonOpenGLServer, clamp = 255) => {
     try {
       server.publishImageData(
         data,
-        'GL_TEXTURE_2D',
         { x: 0, y: 0, width: 50, height: 50 },
         { width: 50, height: 50 },
-        false
+        false,
+        'GL_TEXTURE_2D'
       );
     } catch (err) {
       console.error(err);
